@@ -192,7 +192,7 @@ void PrintParticipantsToFile(Contest contest)
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    Contest currentContest("",0,0);
+    Contest currentContest("", 0, 0);
     while (true)
     {
         string input;
